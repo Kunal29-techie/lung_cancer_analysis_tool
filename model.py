@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 import pickle
 
 # Load data
-df = pd.read_csv("C:\\Users\\Kunal Kumar Deka\\OneDrive\\Desktop\\lungcancerweb\\survey lung cancer.csv")
+df = pd.read_csv("survey lung cancer.csv")
 
 # Encode categorical values
 df['GENDER'] = LabelEncoder().fit_transform(df['GENDER'])
